@@ -1,0 +1,327 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <section class="home-1">
+        <div class="content">
+            <h3>HARPIE TECH</h3>
+            <h6>Votre Réalité Digitale,</h6>
+             <h6>Notre Expertise Technique</h6>
+             <a class="savoir" href="#"><button  type="button" class="btn btn-primary savoirb">En savoir +</button></a>
+        </div>
+    </section>
+     <section class="skills-section">
+            <h2 class="skills-title">NOS COMPÉTENCES</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                <img src="/assets/img/icons3.png" alt="Sécurité" class="skill-icon">
+                <h3 class="skill-name">Sécurité</h3>
+                <p class="skill-description">Des systèmes à la pointe de la technologie pour une sécurité optimale de vos données et de celles de vos clients.</p>
+                </div>
+                <div class="skill-item">
+                <img src="/assets/img/icons1.png" alt="Efficacité" class="skill-icon">
+                <h3 class="skill-name">Efficacité</h3>
+                <p class="skill-description">Une équipe dédiée à l’analyse de votre besoin pour une compréhension parfaite et un résultat rapide.</p>
+                </div>
+                <div class="skill-item">
+                <img src="/assets/img/icons2.png" alt="Qualité" class="skill-icon">
+                <h3 class="skill-name">Qualité</h3>
+                <p class="skill-description">Un  site internet qui reflète votre image de marque et qui répond à vos attentes tant au niveau technique que pour le design.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="trust-section">
+        <h2>ILS NOUS FONT CONFIANCE</h2>
+        <div class="logos">
+            <!-- Insérez vos logos ici -->
+            <a href="https://break-solidaire.com"><img src="/assets/img/LOGO_Break_So.png" alt="Logo 1"></a>
+            <img src="/assets/img/LOGO_Break_So.png" alt="Logo 2">
+            <!-- ... autres logos -->
+        </div>
+    </section>
+    <section class="row services-section d-flex">
+        <div class="col-sm-8" style="margin: auto;">
+            <div class="row g-3 d-flex">
+                <div class="service-item col-sm-3">
+                    <img src="/assets/img/smartphone.png" alt="HARPIE PHONE" class="service-icon">
+                    <h3 class="service-title">HARPIE PHONE</h3>
+                    <p class="service-description">Le téléphone portable devient un 
+outil presque indispensable dans
+ notre quotidien et 80% des
+connexions internet se font
+ via smartphone.</p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="service-item col-sm-3">
+                    <img src="/assets/img/transformation.png " alt="HARPIE PHONE" class="service-icon">
+                    <h3 class="service-title">STRATEGIE DIGITALE</h3>
+                    <p class="service-description">La stratégie digitale de votre
+ entreprise est une des clefs 
+de la réussite de votre business. </p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="service-item col-sm-3">
+                    <img src="/assets/img/web-design.png" alt="HARPIE PHONE" class="service-icon">
+                    <h3 class="service-title">HARPIE WEB</h3>
+                    <p class="service-description">Le site internet est un élément 
+central de la stratégie 
+web-marketing. Il permet d’acquérir de
+nouveaux clients, de les fidéliser, 
+de leur apporter des informations
+ et d’acheter les produits. </p>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        <div class="col-sm-3 service-info">
+        
+            <h2 class="services-header">Nos Services</h2>
+            <p class="services-text">Harpie Tech vous accompagne 
+dans votre transformation digitale 
+à travers 3 offres adaptées à vos 
+besoins. <br><br>
+La satisfaction de nos clients est 
+une priorité, c’est pourquoi chacune
+de nos offres est personnalisée.<br><br>
+Nous nous adaptons à votre besoin
+et mettons un point d’honneur à 
+faire briller votre entreprise.
+
+</p>
+            <a href="#" class="services-link">Voir +</a>
+
+        </div>
+    </section>
+     <!-- <section class="row actu-section">
+       <h2>ACTUALITÉ</h2>
+                <div class="col-sm-2"></div>
+                <div class="actu-item col-sm-2 ">
+                    <img src="/assets/img/teamwork.jpg" alt="HARPIE PHONE" class="actu-icon">
+                    <h5 class="service-title">Titre de cette actualité</h5>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="btn btn-primary actu-b">Lire +</a>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="actu-item col-sm-2">
+                    <img src="/assets/img/teamwork.jpg" alt="HARPIE PHONE" class="actu-icon">
+                    <h5 class="service-title">Titre de cette actualité</h5>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="btn btn-primary actu-b">Lire +</a>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="actu-item col-sm-2 ">
+                    <img src="/assets/img/teamwork.jpg" alt="HARPIE PHONE" class="actu-icon">
+                    <h5 class="service-title">Titre de cette actualité</h5>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="btn btn-primary actu-b">Lire +</a>
+                </div>
+                
+                <div class="col-sm-2"></div>
+            </div>
+        
+        <h2><a href="#" class="btn btn-primary actu-b">Voir toutes les actualités</a></h2>
+    </section>
+    <section class="faq-section">
+        <h2>FAQ</h2>
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+<h2><a href="#" class="btn btn-primary actu-b">Voir toutes les FAQ</a></h2>
+    </section>-->
+    {% for message in app.flashes('success') %}
+    <!--<div class="alert alert-success">
+        {{ message }}
+    </div>-->
+    <script>
+    alert("{{ message }}");
+    </script>
+{% endfor %}
+<section class="form-section">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="form1-tab" data-bs-toggle="tab" href="#form1" role="tab" aria-controls="form1" aria-selected="true">Form 1</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="form2-tab" data-bs-toggle="tab" href="#form2" role="tab" aria-controls="form2" aria-selected="false">Form 2</a>
+  </li>
+</ul>
+<h2 class="contact-title">Contactez-nous</h2>
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="form1" role="tabpanel" aria-labelledby="form1-tab">
+    <form method="post">
+    <div class="row contact"> 
+        <div class="col-sm-6 inp">
+            <label class="label">Nom</label>
+            <input type="text" class="form-control input" placeholder="Votre nom" name="contact[lastname]" required>
+        </div>
+        <div class="col-sm-6 inp">
+            <label class="label">Prénom</label>
+            <input type="text" class="form-control input" placeholder="Votre prénom" name="contact[firstname]" required>
+        </div><br>
+        <div class="col-sm-6 inp">
+            <label class="label">Email</label>
+            <input type="email" class="form-control input" placeholder="Votre email" name="contact[email]" required>
+        </div>
+        <div class="col-sm-6 inp">
+            <label class="label">Téléphone</label>
+            <input type="text" class="form-control input" placeholder="Votre numéro de téléphone" name="contact[telephone]" required>
+        </div>
+        <div class="col-sm-12 inp">
+            <label class="label">Message</label>
+            <Textarea type="password" class="form-control input" placeholder="Votre message" name="contact[message]" required></Textarea>
+        </div>
+        {{ form_row(form._token) }}
+        <div class="col-sm-5 inp">
+        </div>
+        <div class="col-sm-2 inp">
+           <button type="submit" class="btn btn-primary env">Envoyer</button>
+        </div>
+        <div class="col-sm-5 inp">
+        </div>
+    </div>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="form2" role="tabpanel" aria-labelledby="form2-tab">
+    <form method="post">
+    <div class="row contact"> 
+        <div class="col-sm-6 inp">
+            <label class="label">Nom</label>
+            <input type="text" class="form-control input" placeholder="Votre nom" name="devis[lastname]" required>
+        </div>
+        <div class="col-sm-6 inp">
+            <label class="label">Prénom</label>
+            <input type="text" class="form-control input" placeholder="Votre prénom" name="devis[firstname]" required>
+        </div><br>
+        <div class="col-sm-6 inp">
+            <label class="label">Email</label>
+            <input type="email" class="form-control input" placeholder="Votre email" name="devis[email]" required>
+        </div>
+        <div class="col-sm-6 inp">
+            <label class="label">Téléphone</label>
+            <input type="text" class="form-control input" placeholder="Votre numéro de téléphone" name="devis[telephone]" required>
+        </div>
+        <div class="col-sm-12 inp">
+            <label class="label">Société / Nom de domaine*</label>
+            <input type="text" class="form-control input" placeholder="Votre société" name="devis[siret]" required>
+        </div>
+        <div class="col-sm-12 inp">
+            <label class="label">Message</label>
+            <Textarea type="password" class="form-control input" placeholder="Votre message" name="devis[message]" required></Textarea>
+        </div>
+        {{ form_row(form2._token) }}
+        <div class="col-sm-5 inp">
+        </div>
+        <div class="col-sm-2 inp">
+           <button type="submit" class="btn btn-primary env">Envoyer</button>
+        </div>
+        <div class="col-sm-5 inp">
+        </div>
+    </div>
+    </form>
+  </div>
+</div>
+</section>
+
+<section class="liens-section">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <h2 style="display: flex;align-items: center;justify-content: center;">Liens</h2><br>
+        <div class="d-flex" style="align-items: center;justify-content:space-around;">
+            <img src="/assets/img/3955024.png" width='80px'>
+            <img src="/assets/img/5968764.png" width='80px'>
+            <img src="/assets/img/5969020.png" width='80px'>
+            <img src="/assets/img/145807.png" width='80px'>
+        </div><br><br>
+        <div class="row">
+            <div class="col-md-auto">
+                <img src="/assets/img/LOGO_Break_So.png" width='100px'>
+            </div>
+            <div class="col-md-9">
+            <p style="text-align : justify;">Break Solidaire est une association qui mène des actions humanitairesen France et à l'étranger. Elle travaille
+            en collaboration avec des associations sur le terrain en Afrique pour construire des châteaux d'eau ainsi que des centres 
+            éducatifs. L'association vient également en aide aux personnes défavorisées en France et travaille avec des associations qui accompagnent les personnes
+            en situation de handicap. Elle se donne aussi pour objectif de créer un centre éducatif inclusif et accessible à tous en France.
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+        
+    </section>
+<section class="footer">
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="/assets/img/logo-header.png" alt="easyloc" class="logo-footer">
+            <p>Nous tenons à exprimer notre sincère grtitude pour votre visite sur notre site. Chez Harpie Tech, nous sommes passionnés par la communication web et sommes ravis de partager notre expertise avec vous. Merci de faire partie de notre communauté!</p>
+
+        </div>
+        <div class="col-sm-3" style="text-align: center;">
+            <img src="/assets/img/google.png" alt="easyloc" class="logo-footer-google">
+            <p>Harpie Tech</p>
+            <p>97300 - Cayenne</p>
+            <p>+33 7 68 99 19 69</p>
+            <p>contact@harpie-tech.com</p>
+
+        </div>
+        <div class="col-sm-3" style="padding-top: 2%;text-align: center;">
+           <strong class="menu" style="font-size: 1.7rem;">Menu</strong>
+            <p style="margin-top: 4%;">A propos</p>
+            <p>Nos services</p>
+            <p>Blog</p>
+            <p>Contact</p>
+        </div>
+        <div class="col-sm-3" style="padding-top: 2%;text-align: center;">
+           <strong class="menu" style="font-size: 1.7rem;">Suivez-nous</strong><br>
+            <div>
+                <img src="/assets/img/twitter.png" width='33px'>
+                <img src="/assets/img/insta.png" width='45px'>
+                <img src="/assets/img/fb.png" width='45px'>
+                <img src="/assets/img/linkedin.png" width='36px'>
+            </div><br>
+            <button type="button" class="btn btn-primary btn-footer">Rejoignez-nous</button>
+        </div>
+    </div>
+    <p>Copyright @ 2023 - Harpie Tech - Mention légales</p>
+</section>
+
+{% endblock %}
