@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto';
+}
 .navbar {
     top: 0;
     width: 100%;
@@ -187,6 +190,7 @@ color: white;
   .skills-section {
     text-align: center;
     padding: 104px;
+    background-color: #BAE3FF;
   }
   
   .skills-title {
@@ -426,7 +430,7 @@ font-size: 1rem;
 }
 .footer{
   padding: 2%;
-  background-image: linear-gradient(to right, #1a5098, #00122a 50.42%);
+  background-image: linear-gradient(30deg, #004aad, #070d1d 65.13%);
 color: white;
 }
 .logo-footer{
@@ -452,7 +456,7 @@ color: black;
 }
 .propos-icon{
 width: 100%;
-height: 100%;
+height: 67%;
 }
 .metier{
   padding: 4%;
