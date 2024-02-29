@@ -190,7 +190,7 @@ color: white;
   .skills-section {
     text-align: center;
     padding: 104px;
-    background-color: #BAE3FF;
+    background-color: #BAE3FF !important;
   }
   
   .skills-title {
