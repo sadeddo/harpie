@@ -74,5 +74,4 @@ class HomeController extends AbstractController
         ]);
     }
 }
-ssh://harpiep@ssh.cluster027.hosting.ovh.net:22/
 
